@@ -426,12 +426,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 883d95596d506d34b8606364c5252edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _loop: 1
   _commands:
   - {fileID: 1835352548}
   - {fileID: 1835352547}
   - {fileID: 1835352549}
   - {fileID: 1835352547}
-  _loop: 1
 --- !u!4 &1835352546
 Transform:
   m_ObjectHideFlags: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9cb9a0b2c59404c8e72194a75f5d3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 1
+  duration: 0.5
 --- !u!114 &1835352548
 MonoBehaviour:
   m_ObjectHideFlags: 0

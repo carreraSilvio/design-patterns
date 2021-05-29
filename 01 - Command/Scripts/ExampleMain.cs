@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace CommandDesignPattern
@@ -26,7 +25,7 @@ namespace CommandDesignPattern
             }
 
             _command.Execute();
-            if(_command.IsDone && _commandQueue.Count > 0)
+            if(_command.IsDone)
             {
                 if(_commandQueue.Count == 0)
                 {
