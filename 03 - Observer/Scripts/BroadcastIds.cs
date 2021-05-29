@@ -1,4 +1,7 @@
-﻿public static class BroadcastIds
+﻿namespace ObserverDesignPattern
 {
-    public static string COIN_PICKED = "COIN_PICKED";
+    public static class BroadcastIds
+    {
+        public static string COIN_PICKED = "COIN_PICKED";
+    }
 }

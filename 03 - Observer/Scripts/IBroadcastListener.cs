@@ -1,4 +1,7 @@
-﻿public interface IBroadcastListener
+﻿namespace ObserverDesignPattern
 {
-    void HandleCoinPick();
+    public interface IBroadcastListener
+    {
+        void HandleCoinPick();
+    }
 }

@@ -1,18 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Coin : MonoBehaviour
+namespace ObserverDesignPattern
 {
-
-    private void OnTriggerEnter(Collider other)
+    public class Coin : MonoBehaviour
     {
-        if (other.transform.CompareTag("Player"))
+        private void OnTriggerEnter(Collider other)
         {
-            Broadcaster.Broadcast(BroadcastIds.COIN_PICKED);
-            gameObject.SetActive(false);
+            if (other.transform.CompareTag("Player"))
+            {
+                Broadcaster.Broadcast(BroadcastIds.COIN_PICKED);
+                gameObject.SetActive(false);
+            }
         }
     }
-
-
 }
