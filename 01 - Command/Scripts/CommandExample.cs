@@ -5,7 +5,7 @@ namespace CommandDesignPattern
 {
     public class CommandExample : MonoBehaviour
     {
-        [SerializeField] private bool _loop;
+        [SerializeField] private bool _loop = false;
         [SerializeField] private GameplayCommand[] _commands = default;
 
         private GameplayCommand _command;
