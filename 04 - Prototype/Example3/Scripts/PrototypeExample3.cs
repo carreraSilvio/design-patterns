@@ -2,7 +2,7 @@
 
 namespace PrototypeDesignPattern.Example3
 {
-    public class Example3Main : MonoBehaviour
+    public class PrototypeExample3 : MonoBehaviour
     {
         private Spawner<Ghost> _ghostSpawner;
         private Spawner<Dragon> _dragonSpawner;

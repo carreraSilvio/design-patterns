@@ -2,7 +2,7 @@
 
 namespace PrototypeDesignPattern.Example2
 {
-    public class Example2Main : MonoBehaviour
+    public class PrototypeExample2 : MonoBehaviour
     {
         private MonsterSpawner _ghostSpawner;
 
