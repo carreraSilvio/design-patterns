@@ -1,13 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Cube : MonoBehaviour
+namespace FlyweightDesignPattern
 {
-    public CubeData data;
-
-    private void OnMouseDown()
+    public class Cube : MonoBehaviour
     {
-        Debug.Log($"Clicked {data.displayName}! Info: {data.info}");
+        public CubeData data;
+
+        private void OnMouseDown()
+        {
+            Debug.Log($"Clicked {data.displayName}! Info: {data.info}");
+        }
     }
 }
