@@ -3,10 +3,10 @@ using UnityEngine;
 
 namespace CommandDesignPattern
 {
-    public class ExampleMain : MonoBehaviour
+    public class CommandExample : MonoBehaviour
     {
         [SerializeField] private bool _loop;
-        [SerializeField] private GameplayCommand[] _commands;
+        [SerializeField] private GameplayCommand[] _commands = default;
 
         private GameplayCommand _command;
         private readonly Queue<GameplayCommand> _commandQueue = new Queue<GameplayCommand>();

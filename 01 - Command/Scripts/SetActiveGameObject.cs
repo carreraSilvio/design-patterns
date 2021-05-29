@@ -4,7 +4,7 @@ namespace CommandDesignPattern
 {
     public class SetActiveGameObject : GameplayCommand
     {
-        public GameObject target;
+        public GameObject target = default;
         public bool active;
 
         public override void Execute()
