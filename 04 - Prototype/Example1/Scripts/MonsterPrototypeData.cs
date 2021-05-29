@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace PrototypeDesignPattern
+namespace PrototypeDesignPattern.Example1
 {
     [CreateAssetMenu(menuName = nameof(PrototypeDesignPattern) + "/" + nameof(MonsterPrototypeData))]
     public class MonsterPrototypeData : ScriptableObject
@@ -11,5 +9,4 @@ namespace PrototypeDesignPattern
         public int health;
         public int damage;
     }
-
 }
