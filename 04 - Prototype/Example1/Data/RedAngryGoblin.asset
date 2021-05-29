@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb06bd55bd42e59478bef95115283c47, type: 3}
-  m_Name: New Monster Prototype Data
+  m_Script: {fileID: 11500000, guid: ce36570d6464108469aba441c4e09458, type: 3}
+  m_Name: RedAngryGoblin
   m_EditorClassIdentifier: 
-  name: 
+  name: Red Angry Goblin
   health: 0
   damage: 0
+  prototypeData: {fileID: 11400000, guid: 181fb0aa20f028a41977e750c76f212f, type: 2}
