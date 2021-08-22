@@ -1,14 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace StateDesignPattern
+﻿namespace StateDesignPattern
 {
     public class State
     {
         public virtual void Enter(Actor owner)
         {
-
         }
 
         public virtual State Update(Actor owner)
@@ -18,7 +13,6 @@ namespace StateDesignPattern
 
         public virtual void Exit(Actor owner)
         {
-
         }
     }
 }
